@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B010567B1AC733300080572D /* ExplosionEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = B010567A1AC733300080572D /* ExplosionEmitter.sks */; };
+		B069C75D1AC483CF00A5CC21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069C75C1AC483CF00A5CC21 /* AppDelegate.swift */; };
+		B069C75F1AC483CF00A5CC21 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B069C75E1AC483CF00A5CC21 /* GameScene.sks */; };
+		B069C7611AC483CF00A5CC21 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069C7601AC483CF00A5CC21 /* GameScene.swift */; };
+		B069C7631AC483CF00A5CC21 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069C7621AC483CF00A5CC21 /* GameViewController.swift */; };
+		B069C7661AC483CF00A5CC21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B069C7641AC483CF00A5CC21 /* Main.storyboard */; };
+		B069C7681AC483CF00A5CC21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B069C7671AC483CF00A5CC21 /* Images.xcassets */; };
+		B069C76B1AC483CF00A5CC21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B069C7691AC483CF00A5CC21 /* LaunchScreen.xib */; };
+		B069C7771AC483D000A5CC21 /* KeyboardShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069C7761AC483D000A5CC21 /* KeyboardShooterTests.swift */; };
+		B069C7891AC483E500A5CC21 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069C7881AC483E500A5CC21 /* KeyboardViewController.swift */; };
+		B069C78C1AC483E500A5CC21 /* ShooterKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B069C7841AC483E500A5CC21 /* ShooterKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B069C7A81AC4957700A5CC21 /* KeyboardShooterScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B069C7A71AC4957700A5CC21 /* KeyboardShooterScene.swift */; };
+		B069C7CF1AC4A6AE00A5CC21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B069C7671AC483CF00A5CC21 /* Images.xcassets */; };
+		B0FA65F31AC52B4300C1AA58 /* ExhaustEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0FA65F11AC52B4300C1AA58 /* ExhaustEmitter.sks */; };
+		B0FA65F41AC52B4300C1AA58 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FA65F21AC52B4300C1AA58 /* spark.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B069C7711AC483D000A5CC21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B069C74F1AC483CF00A5CC21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B069C7561AC483CF00A5CC21;
+			remoteInfo = KeyboardShooter;
+		};
+		B069C78A1AC483E500A5CC21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B069C74F1AC483CF00A5CC21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B069C7831AC483E500A5CC21;
+			remoteInfo = ShooterKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B069C7901AC483E500A5CC21 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B069C78C1AC483E500A5CC21 /* ShooterKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B010567A1AC733300080572D /* ExplosionEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionEmitter.sks; sourceTree = "<group>"; };
+		B069C7571AC483CF00A5CC21 /* KeyboardShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B069C75B1AC483CF00A5CC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B069C75C1AC483CF00A5CC21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B069C75E1AC483CF00A5CC21 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B069C7601AC483CF00A5CC21 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B069C7621AC483CF00A5CC21 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B069C7651AC483CF00A5CC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B069C7671AC483CF00A5CC21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KeyboardShooter/Images.xcassets; sourceTree = "<group>"; };
+		B069C76A1AC483CF00A5CC21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B069C7701AC483D000A5CC21 /* KeyboardShooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardShooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B069C7751AC483D000A5CC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B069C7761AC483D000A5CC21 /* KeyboardShooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardShooterTests.swift; sourceTree = "<group>"; };
+		B069C7841AC483E500A5CC21 /* ShooterKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShooterKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B069C7871AC483E500A5CC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B069C7881AC483E500A5CC21 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		B069C7A71AC4957700A5CC21 /* KeyboardShooterScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardShooterScene.swift; sourceTree = "<group>"; };
+		B0FA65F11AC52B4300C1AA58 /* ExhaustEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExhaustEmitter.sks; sourceTree = "<group>"; };
+		B0FA65F21AC52B4300C1AA58 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B069C7541AC483CF00A5CC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B069C76D1AC483D000A5CC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B069C7811AC483E500A5CC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B069C74E1AC483CF00A5CC21 = {
+			isa = PBXGroup;
+			children = (
+				B069C7671AC483CF00A5CC21 /* Images.xcassets */,
+				B069C7591AC483CF00A5CC21 /* KeyboardShooter */,
+				B069C7731AC483D000A5CC21 /* KeyboardShooterTests */,
+				B069C7851AC483E500A5CC21 /* ShooterKeyboard */,
+				B069C7581AC483CF00A5CC21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B069C7581AC483CF00A5CC21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B069C7571AC483CF00A5CC21 /* KeyboardShooter.app */,
+				B069C7701AC483D000A5CC21 /* KeyboardShooterTests.xctest */,
+				B069C7841AC483E500A5CC21 /* ShooterKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B069C7591AC483CF00A5CC21 /* KeyboardShooter */ = {
+			isa = PBXGroup;
+			children = (
+				B069C75C1AC483CF00A5CC21 /* AppDelegate.swift */,
+				B069C75E1AC483CF00A5CC21 /* GameScene.sks */,
+				B069C7601AC483CF00A5CC21 /* GameScene.swift */,
+				B069C7621AC483CF00A5CC21 /* GameViewController.swift */,
+				B069C7641AC483CF00A5CC21 /* Main.storyboard */,
+				B069C7691AC483CF00A5CC21 /* LaunchScreen.xib */,
+				B069C75A1AC483CF00A5CC21 /* Supporting Files */,
+			);
+			path = KeyboardShooter;
+			sourceTree = "<group>";
+		};
+		B069C75A1AC483CF00A5CC21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B069C75B1AC483CF00A5CC21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B069C7731AC483D000A5CC21 /* KeyboardShooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B069C7761AC483D000A5CC21 /* KeyboardShooterTests.swift */,
+				B069C7741AC483D000A5CC21 /* Supporting Files */,
+			);
+			path = KeyboardShooterTests;
+			sourceTree = "<group>";
+		};
+		B069C7741AC483D000A5CC21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B069C7751AC483D000A5CC21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B069C7851AC483E500A5CC21 /* ShooterKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B069C7881AC483E500A5CC21 /* KeyboardViewController.swift */,
+				B069C7A71AC4957700A5CC21 /* KeyboardShooterScene.swift */,
+				B010567A1AC733300080572D /* ExplosionEmitter.sks */,
+				B0FA65F11AC52B4300C1AA58 /* ExhaustEmitter.sks */,
+				B0FA65F21AC52B4300C1AA58 /* spark.png */,
+				B069C7861AC483E500A5CC21 /* Supporting Files */,
+			);
+			path = ShooterKeyboard;
+			sourceTree = "<group>";
+		};
+		B069C7861AC483E500A5CC21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B069C7871AC483E500A5CC21 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B069C7561AC483CF00A5CC21 /* KeyboardShooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B069C77A1AC483D000A5CC21 /* Build configuration list for PBXNativeTarget "KeyboardShooter" */;
+			buildPhases = (
+				B069C7531AC483CF00A5CC21 /* Sources */,
+				B069C7541AC483CF00A5CC21 /* Frameworks */,
+				B069C7551AC483CF00A5CC21 /* Resources */,
+				B069C7901AC483E500A5CC21 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B069C78B1AC483E500A5CC21 /* PBXTargetDependency */,
+			);
+			name = KeyboardShooter;
+			productName = KeyboardShooter;
+			productReference = B069C7571AC483CF00A5CC21 /* KeyboardShooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B069C76F1AC483D000A5CC21 /* KeyboardShooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B069C77D1AC483D000A5CC21 /* Build configuration list for PBXNativeTarget "KeyboardShooterTests" */;
+			buildPhases = (
+				B069C76C1AC483D000A5CC21 /* Sources */,
+				B069C76D1AC483D000A5CC21 /* Frameworks */,
+				B069C76E1AC483D000A5CC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B069C7721AC483D000A5CC21 /* PBXTargetDependency */,
+			);
+			name = KeyboardShooterTests;
+			productName = KeyboardShooterTests;
+			productReference = B069C7701AC483D000A5CC21 /* KeyboardShooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B069C7831AC483E500A5CC21 /* ShooterKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B069C78D1AC483E500A5CC21 /* Build configuration list for PBXNativeTarget "ShooterKeyboard" */;
+			buildPhases = (
+				B069C7801AC483E500A5CC21 /* Sources */,
+				B069C7811AC483E500A5CC21 /* Frameworks */,
+				B069C7821AC483E500A5CC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShooterKeyboard;
+			productName = ShooterKeyboard;
+			productReference = B069C7841AC483E500A5CC21 /* ShooterKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B069C74F1AC483CF00A5CC21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = stevethomp;
+				TargetAttributes = {
+					B069C7561AC483CF00A5CC21 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					B069C76F1AC483D000A5CC21 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = B069C7561AC483CF00A5CC21;
+					};
+					B069C7831AC483E500A5CC21 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = B069C7521AC483CF00A5CC21 /* Build configuration list for PBXProject "KeyboardShooter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B069C74E1AC483CF00A5CC21;
+			productRefGroup = B069C7581AC483CF00A5CC21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B069C7561AC483CF00A5CC21 /* KeyboardShooter */,
+				B069C76F1AC483D000A5CC21 /* KeyboardShooterTests */,
+				B069C7831AC483E500A5CC21 /* ShooterKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B069C7551AC483CF00A5CC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B069C76B1AC483CF00A5CC21 /* LaunchScreen.xib in Resources */,
+				B069C7681AC483CF00A5CC21 /* Images.xcassets in Resources */,
+				B069C75F1AC483CF00A5CC21 /* GameScene.sks in Resources */,
+				B069C7661AC483CF00A5CC21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B069C76E1AC483D000A5CC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B069C7821AC483E500A5CC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B069C7CF1AC4A6AE00A5CC21 /* Images.xcassets in Resources */,
+				B0FA65F41AC52B4300C1AA58 /* spark.png in Resources */,
+				B010567B1AC733300080572D /* ExplosionEmitter.sks in Resources */,
+				B0FA65F31AC52B4300C1AA58 /* ExhaustEmitter.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B069C7531AC483CF00A5CC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B069C7611AC483CF00A5CC21 /* GameScene.swift in Sources */,
+				B069C7631AC483CF00A5CC21 /* GameViewController.swift in Sources */,
+				B069C75D1AC483CF00A5CC21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B069C76C1AC483D000A5CC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B069C7771AC483D000A5CC21 /* KeyboardShooterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B069C7801AC483E500A5CC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B069C7891AC483E500A5CC21 /* KeyboardViewController.swift in Sources */,
+				B069C7A81AC4957700A5CC21 /* KeyboardShooterScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B069C7721AC483D000A5CC21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B069C7561AC483CF00A5CC21 /* KeyboardShooter */;
+			targetProxy = B069C7711AC483D000A5CC21 /* PBXContainerItemProxy */;
+		};
+		B069C78B1AC483E500A5CC21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B069C7831AC483E500A5CC21 /* ShooterKeyboard */;
+			targetProxy = B069C78A1AC483E500A5CC21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B069C7641AC483CF00A5CC21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B069C7651AC483CF00A5CC21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B069C7691AC483CF00A5CC21 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B069C76A1AC483CF00A5CC21 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B069C7781AC483D000A5CC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B069C7791AC483D000A5CC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B069C77B1AC483D000A5CC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyboardShooter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B069C77C1AC483D000A5CC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyboardShooter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B069C77E1AC483D000A5CC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeyboardShooterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardShooter.app/KeyboardShooter";
+			};
+			name = Debug;
+		};
+		B069C77F1AC483D000A5CC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeyboardShooterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyboardShooter.app/KeyboardShooter";
+			};
+			name = Release;
+		};
+		B069C78E1AC483E500A5CC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShooterKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B069C78F1AC483E500A5CC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShooterKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B069C7521AC483CF00A5CC21 /* Build configuration list for PBXProject "KeyboardShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B069C7781AC483D000A5CC21 /* Debug */,
+				B069C7791AC483D000A5CC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B069C77A1AC483D000A5CC21 /* Build configuration list for PBXNativeTarget "KeyboardShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B069C77B1AC483D000A5CC21 /* Debug */,
+				B069C77C1AC483D000A5CC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B069C77D1AC483D000A5CC21 /* Build configuration list for PBXNativeTarget "KeyboardShooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B069C77E1AC483D000A5CC21 /* Debug */,
+				B069C77F1AC483D000A5CC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B069C78D1AC483E500A5CC21 /* Build configuration list for PBXNativeTarget "ShooterKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B069C78E1AC483E500A5CC21 /* Debug */,
+				B069C78F1AC483E500A5CC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B069C74F1AC483CF00A5CC21 /* Project object */;
+}
